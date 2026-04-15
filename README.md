@@ -1,54 +1,46 @@
-# BhoomDom-Inspired Solo AI Studio Webpage
+# Your Cloud Landing Page
 
-This repository contains a generic landing page built from the BhoomDom concept and a solo AI-powered studio business model.
+This repository contains a single static landing page built to run on GitHub Pages.
 
 ## What it includes
 
 - `index.html` — landing page content and sections
 - `styles.css` — dark theme styling and responsive layout
-- `README.md` — repo usage and push instructions
-
-## Summary of BhoomDom
-
-BhoomDom is an Indian cinema hub offering:
-- trending movie reviews and discovery
-- OTT streaming highlights and sharing groups
-- ticket marketplace listings for verified cinema seats
-- premium membership with ad-free browsing, early reviews, and alerts
+- `README.md` — deployment instructions
 
 ## What this page communicates
 
-It combines BhoomDom-style product positioning with a solo agency concept:
-- delivering team-level product work as a one-person studio
-- charging agency rates for MVPs, SaaS, and retainers
-- using AI tools to replace design, development, QA, content, and operations
-- finding global clients through Toptal, Contra, LinkedIn, Upwork, YC, and cold outreach
+This landing page positions a solo technical studio that:
+- builds software products from idea to production
+- delivers MVPs, SaaS, web apps, and managed product operations
+- works globally with USD/EUR-friendly billing
+- uses AI tools to replace a larger team and speed delivery
 
-## How to initialize and push to GitHub
+## How to deploy on GitHub Pages
 
-1. Initialize git:
+1. Initialize git if you haven’t already:
    ```bash
    git init
    git add .
-   git commit -m "Initial commit"
+   git commit -m "Initial static landing page"
    git branch -M main
    ```
 
-2. Create a GitHub repo:
-   - Option A: Use GitHub CLI if available
-     ```bash
-     gh repo create <repo-name> --public --source=. --remote=origin --confirm
-     git push -u origin main
-     ```
-   - Option B: Create repo on github.com manually and then add remote:
-     ```bash
-     git remote add origin https://github.com/<your-username>/<repo-name>.git
-     git push -u origin main
-     ```
+2. Create the GitHub repository on github.com.
 
-3. Open `index.html` in a browser to preview.
+3. Add the remote and push:
+   ```bash
+   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   git push -u origin main
+   ```
+
+4. Enable GitHub Pages in repo settings:
+   - Go to `Settings > Pages`
+   - Choose branch `main` and folder `/ (root)`
+   - Save and open the published URL
 
 ## Notes
 
-This is a generic landing page scaffold that can be customized with your own copy, logo, and branding.
-# webpage
+- This is a single static page built for GitHub Pages.
+- No backend services are included.
+- The contact form uses `mailto:` with your email address.
